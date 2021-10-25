@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Selectors</title>
+    
+    <style>
+
+        /* Tüm h1 leri seç */
+        /* h1 {
+            color: red;
+            background: wheat;
+        } */
+
+
+        /* Tüm paragraphları seç */
+        /* p {
+            color: white;
+            background: blue;
+        } */
+
+
+        /* Tüm h1 ve p leri aynı anda seç */
+        /* h1,p {
+            color: red;
+            background: wheat;
+        } */
+    
+
+        /* Id si logo olanları seç */
+        /* #Logo {
+            color: red;
+            background: wheat;
+        } */
+
+
+        /* Class ı Info olanları seçmek için */
+        /* .Info {
+            color: red;
+            background: wheat;
+        } */
+
+
+        /* Hem Id Logo hem de Class Lead olanları seçmek */
+        /* #Logo, .Lead {
+            color: red;
+            background: wheat;
+        } */
+    
+    
+        /* Hem ID hem de Class için */
+        /* #Para1.Lead {
+            color: red;
+            background: wheat;
+        } */
+
+
+        /* Linklerin alt çizgisini silmek için */
+        /* a{
+            text-decoration: none;
+        } */
+
+
+        /* Ul içindeki li in içindeki a etiketi için */
+        /* ul li a {
+            text-decoration: none;
+        } */
+
+
+        /* .Info span {
+            color: red;
+            background: wheat;
+        } */
+
+
+        /* .Info .Primary {
+            color: red;
+        } */
+
+
+        /* Tüm etiketleri editlemek için */
+        * {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Header 1</h1>
+        <h1 id="Logo">Logo</h1>
+
+        <ul>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+        </ul>
+    </header>
+    <h1>
+        Header 2
+    </h1>
+    <p id="Para1" class="Lead Info">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quasi?
+    </p>
+    <p class="Info">
+        Lorem ipsum dolor sit, amet <span class="Primary">consectetur</span> adipisicing elit. Animi, omnis!
+    </p>
+    <p class="Info">
+        Lorem ipsum dolor sit amet consectetur, adipisicing <span>elit.</span> Expedita, commodi?
+    </p>
+    <p>Test Paragraph</p>
+    <a href="#">HOME</a>
+</body>
+</html>

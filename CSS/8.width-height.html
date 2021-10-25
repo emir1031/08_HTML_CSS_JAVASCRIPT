@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Width-Height, Max-Width</title>
+
+    <style>
+        div#box1 {
+            max-width: 700px;
+            /* bu div maksimum bu kadar olur ve daha fazla büyüyemez.
+            alt tarafta da scroll çıkmaz */
+            height: 100px;
+            background: wheat;
+
+            /* div'in görünümü, tarayıcı daralınca sabit kalıyor.
+            div'in orantılı bir şekilde daralması için; */
+            /* width: 50%; */
+        }
+        /* div#box2 {
+            width: 50%;
+            height: 50px;
+            background: red;
+        } */
+    </style>
+</head>
+<body>
+    <div id="box1">
+        <!-- <div id="box2"></div> -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Display</title>
+    <style>
+        /* .box {
+            width: 50%;
+            height: 100px;
+        }
+        .box1 {
+            background: red;
+        }
+        .box2 {
+            background: wheat;
+        } */
+
+        /* #test-link  {
+            width: 100px;
+            height: 100px; */
+        /* bu şekilde yapsak bile, bu link ölçüleri değişmez.
+        Ya blok içine yazılır ya da inline-block özelliği kullanılır.
+        } */
+
+        #test-link {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background: tomato;
+        /* Hem block oldu hem de bir sonraki yazı yanına yazılabiliyor. */
+        /* Aynı zamanda inline block verirsek, linkin bulunduğu tüm block çalışır. */
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="#" id="test-link">Test Link</a>
+    Deneme Content
+    <!-- <div class="box box1"></div>
+    <div class="box box2"></div> -->
+</body>
+
+</html>

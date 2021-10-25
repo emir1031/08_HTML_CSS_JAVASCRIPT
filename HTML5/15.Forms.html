@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Form and Inputs</title>
+</head>
+
+<body>
+
+    <form action="deneme.php">
+        <!-- HTML5 Input -->
+        <label for="name">Name</label> <br />
+        <input type="text" id="name" name="name" placeholder="Your Name"/> <br>
+
+        <label for="email">Email</label> <br>
+        <input type="email" id="email" name="email"> <br>
+
+        <label for="password">Password</label> <br>
+        <input type="password" id="password" name="password"> <br>
+
+        <label for="date">Tarih</label><br>
+        <input type="date" id="date" name="date"> <br>
+ 
+        <label for="gender">Cinsiyet</label> <br />
+        Male
+        <input type="radio" name="gender" value="male" checked> 
+        Female
+        <input type="radio" name="gender" value="female">
+        Other
+        <input type="radio" name="gender" value="other"> <br>
+
+        Hobbies <br>
+
+        Technology
+        <input type="checkbox" name="tech" id="tech" checked> <br>
+        Music
+        <input type="checkbox" name="music" id="music" checked> <br>
+        Art
+        <input type="checkbox" name="art" id="art"> <br>
+
+        Degree <br>
+        <select name="degree" id="degree">
+            <option value="bachelor">Lisans</option>
+            <option value="msc">Yüksek Lisans</option>
+            <option value="phd" selected>Doktora</option>
+        </select> <br>
+
+        <textarea name="mesaj" id="mesaj" cols="30" rows="10" placeholder="Your message!"></textarea> <br>
+
+        <button type="reset">Sıfırla</button>
+        <input type="submit" value="Submit" />
+    </form>
+
+</body>
+
+</html>
